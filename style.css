@@ -1,0 +1,343 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Arbutus Slab", serif;
+
+}
+
+nav{
+    max-width: 100%;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.651);
+    position: fixed;
+    z-index: 1;
+    
+}
+nav:hover{
+    background-color:rgba(206, 202, 202, 0.473) ;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 30px;
+    
+}
+nav ul a{
+    color: rgba(29, 29, 29, 0.911);
+    font-weight:bold ;
+    font-size: 30px;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+nav ul a:hover{
+    color: gray!important;
+    font-weight:bold ;
+    font-size: 32px;
+    margin: 10px 20px;
+
+}
+.section1{
+    background-image: url(./pic/children.avif);
+    background-repeat: no-repeat;
+    background-size: 1400px ;
+    height: 100vh;
+    
+
+}
+.section1 div{
+    width: max-content;
+    background-color:rgba(245, 245, 245, 0.24);
+    position: relative;
+    top: 250px;
+    left: 50px;
+    padding: 10px;
+}
+.section1 h1{
+    font-family: "Arbutus Slab", serif;
+    font-size: 40px;
+    margin: 15px 0;
+}
+.section1 p{
+    font-family: "Arbutus Slab", serif;
+    font-size: 25px;
+    color: rgb(27, 27, 27);
+    margin: 15px 0;
+}
+.section1 button{
+    font-family: "Arbutus Slab", serif;
+    font-size: 17px;
+    color: black;
+    padding: 15px;
+    background-color:rgba(128, 128, 128, 0.651) ;
+    border: none;
+    border-radius: 50%;
+    margin: 15px 0;
+    
+
+}
+.section1 button:hover{
+    font-family: "Arbutus Slab", serif;
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+    padding: 15px;
+    background-color:transparent ;
+    border: 1px solid gray;
+    border-radius: 20px;
+
+}
+
+.section2{
+    max-width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 200px 40px 80px 40px;
+    padding: 20px 0;
+
+    
+}
+.section2 div{
+    width: 40%;
+    height: 180px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  margin-top: 30px;
+}
+.section2 .item1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+        
+}
+.section2 .item2{
+    color: black;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+.section2 .item3{
+    color: rgb(41, 40, 40);
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+.section2 .item1 { grid-area: 1 / 1 / 3/ 2; }
+.section2 .item2 { grid-area: 1 / 2 / 2 / 3; }
+.section2 .item3 { grid-area: 2 / 2 / 3 / 3; }
+.section3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 200px 40px 80px 40px;
+    
+}
+.section3 div{
+    width: 30%;
+    margin: 10px 0;
+}
+.section3 div img{
+    width: 100%;
+    height: 325px;
+}
+.about,.myportfolio,.h11,.client,.form{
+    font-size: 32px;
+    padding: 5px 5px;
+    width: max-content;
+    margin:75px 0px -144px 78px;
+}
+hr{
+    width: 50px;
+    border-bottom: 2px green solid;
+    margin: 142px 1px -193px 93px;;
+    
+
+}
+.section3 div p{
+    color: rgb(41, 40, 40);
+    padding: 10px;
+}
+.section4{
+    max-width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 200px 40px 80px 40px;
+    padding: 20px 0;
+
+    
+}
+.section4 img, .section7 img{
+    width: 25%;
+}
+.section6{
+    display: flex;
+    justify-content: space-around;
+    gap: 1px;
+    width:10%;
+    background-color:rgba(245, 245, 245, 0.932);
+    margin: 5px auto 200px auto;
+}
+
+
+
+.section7{
+    max-width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 200px 40px 80px 40px;
+    padding: 20px 0;
+}
+.contact{
+    max-width: 100%;
+    background-color: whitesmoke;
+    /* display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap; */
+    margin: 200px 40px 80px 40px;
+    padding: 20px 0;
+}
+.contact form{
+    margin: 10px;
+    
+}
+.contact form div{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.363);
+    display: flex;
+    justify-content: space-between;
+}
+.contact form input,textarea{
+    width: 100%;
+    margin: 10px 5px;
+    border: none;
+    border-bottom: 1px grey solid;
+}
+.contact form .m_form{
+    background-color: rgba(128, 128, 128, 0.829);
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 70px;
+}
+.contact form .m_form:hover{
+    background-color:transparent  ;
+    padding: 23px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    font-weight: bold;
+}
+
+
+.carousel{
+    background-color: rgba(163, 160, 160, 0.568);
+    padding: 100px 0;
+    max-width: 95%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    margin: 200px 40px 80px 40px;
+    border-radius: 15px;
+
+}
+.carousel-indicators{
+    width: 50%;
+    transform: translateX(120px);
+}
+.carousel-indicators button{
+    width: 20px!important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    background-color:gray !important;
+    border: none!important;
+    margin-top: 5px!important;
+}
+.carousel-item{
+    margin: 5px 30!important;
+    
+
+}
+.carousel-item h1{
+    color: rgba(0, 0, 0, 0.61);
+    font-weight: bold;
+    padding: 50px 0;
+    
+}
+.carousel-item p{
+    color: black;
+    width: 80%;
+    position: relative;
+    right: -119px;
+    
+    
+}
+.last{
+    max-width: 100%;
+    background-color: whitesmoke;
+    margin: 200px 40px 80px 40px;
+    padding: 20px 0; 
+}
+.last .one{
+    max-width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    
+}
+.last .one div{
+    width: 20%;
+    margin: 10px 5px 10px 15px;
+    text-align: left;
+    
+
+}
+.last .one div h1{
+    width: 100%;
+    font-size: xx-large;
+}
+.last .one div pre{
+    width: 100%;
+    font-size: small;
+    margin: 8px 0;
+    color: rgba(128, 128, 128, 0.884);
+}
+.last .two{
+    text-align: center;
+    color: rgba(128, 128, 128, 0.884);
+
+}
+.last .one .dd .ddd{
+    display: flex;
+    justify-content: baseline;
+    gap: 30px;
+}
+.last .one div img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
